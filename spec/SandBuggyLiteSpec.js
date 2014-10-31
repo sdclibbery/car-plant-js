@@ -16,7 +16,7 @@ describe("SandBuggyLite", function() {
   });
 
   it("turns all the wheels when turning right", function() {
-    triton.turnLeft(10);
+    triton.turnRight(10);
     expect(CarPlant.LOG).toBe("front left turning right 10 degrees\nfront right turning right 10 degrees\nrear left turning right 10 degrees\nrear right turning right 10 degrees\n");
   });
 
